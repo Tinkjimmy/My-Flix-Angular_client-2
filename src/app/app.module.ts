@@ -31,6 +31,7 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     UserRegistrationFormComponent,
+    WelcomePageComponent,
     UserLoginFormComponent,
     MovieCardComponent,
 
