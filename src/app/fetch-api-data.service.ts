@@ -66,9 +66,25 @@ export class FetchApiDataService {
   }
   
 /**
- * fetches the info for one movie from the api
- * @param title title of the movie 
- * @returns movie info
+ * @description Get a movie by title
+ * @name GET /movies/:Title
+ * @example
+ * Authentication: Bearer token (JWT)
+ * @example
+ * Request data format
+ * none
+ * @example
+ * Response data format
+ * {
+ *   _id: ObjectID
+ *   "Title": "",
+ *   "Description": "",
+ *   "Genre": ObjectID,
+ *   "Director": [ObjectID],
+ *   "Actors": [ObjectID],
+ *   "ImagePath": "",
+ *   "Featured": Boolean,
+ * }
  */
   getOneMovie(title: string): Observable<any> {
     const token = localStorage.getItem('token');
@@ -201,6 +217,7 @@ export class FetchApiDataService {
  * @returns 
  */
 
+
   deleteUser(): Observable<any> {
     const user = JSON.parse(localStorage.getItem('user') || '{}');
     const token = localStorage.getItem('token');
@@ -241,7 +258,12 @@ export class FetchApiDataService {
   }
 
   /**non-typed response extraction*/
-  
+  /**
+   * 
+   * @param res 
+   * @returns 
+   */
+
   private extractResponseData(res: any) {
     const body = res;
     return body || {};

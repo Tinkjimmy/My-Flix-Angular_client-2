@@ -14,6 +14,10 @@ export class MovieCardComponent {
     this.getMovies();
   }
 
+/**
+ * fetches all movies from the api
+ */
+
   getMovies(): void {
     this.fetchApiData.getAllMovies().subscribe((resp: any) => {
       this.movies = resp; 
