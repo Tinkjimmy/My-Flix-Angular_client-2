@@ -139,11 +139,19 @@ export class FetchApiDataService {
  * fetches the info for one user from the api
  * @returns user info
  */
-  getOneUser(): Observable<any> {
-    const user = JSON.parse(localStorage.getItem('user') || '{}');
-    return user;
-  }
-
+getOneUser(): Observable<any> {
+  const username = localStorage.getItem('Username');
+  const token = localStorage.getItem('token');
+  return this.http.get(apiUrl + 'users/' + username, {
+    headers: new HttpHeaders(
+      {
+        Authorization: 'Bearer ' + token,
+      })
+  }).pipe(
+    map(this.extractResponseData),
+    catchError(this.handleError)
+  );
+}
 /**
  * fetches the user's favorite movie array 
  * @returns user's array of favorite movies by id
@@ -172,7 +180,7 @@ export class FetchApiDataService {
   addFavoriteMovie(movieId: string): Observable<any> {
     const user = JSON.parse(localStorage.getItem('user') || '{}');
     const token = localStorage.getItem('token');
-    user.FavoriteMovies.push(movieId);
+    user.Favourites.push(movieId);
     localStorage.setItem('user', JSON.stringify(user));
     return this.http.post(apiUrl + 'users/' + user.Username + '/movies/' + movieId, {}, {
       headers: new HttpHeaders(
@@ -188,7 +196,7 @@ export class FetchApiDataService {
 
   isFavoriteMovie(movieId: string): boolean {
     const user = JSON.parse(localStorage.getItem('user') || '{}');
-    return user.FavoriteMovies.indexOf(movieId) >= 0;
+    return user.Favourites.indexOf(movieId) >= 0;
   }
 
 
@@ -239,10 +247,10 @@ export class FetchApiDataService {
   deleteFavoriteMovie(movieId: string): Observable<any> {
     const user = JSON.parse(localStorage.getItem('user') || '{}');
     const token = localStorage.getItem('token');
-    const index = user.FavoriteMovies.indexOf(movieId);
+    const index = user.Favourites.indexOf(movieId);
     console.log(index);
     if (index > -1) { //only splice array when item is found
-      user.FavoriteMovies.splice(index, 1); 
+      user.Favourites.splice(index, 1); 
     }
     localStorage.setItem('user', JSON.stringify(user));
     return this.http.delete(apiUrl + 'users/' + user.Username + '/movies/' + movieId, {
