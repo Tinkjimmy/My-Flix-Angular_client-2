@@ -1,14 +1,23 @@
+<app-navbar></app-navbar>
 
 <div class="profile-container">
     <div class="info-container ">
-        <div class="info">
+        <div class="info" *ngIf="user">
             <h1>profile </h1>
-            <p>Username: {{user.Username}} </p>
-            <p>Email: {{user.Email}}</p>
+            <p>Username: {{userData.Username}} </p>
+            <p>Email: {{userData.Email}}</p>
 
-            
+            <h2>favorite movies</h2>
+            <div *ngIf="favoriteMovies.length === 0">
+                <p>your list is empty</p>
+            </div>
         </div>
-      
+        <mat-list>
+            <mat-list-item *ngFor="let movie of favoriteMovies">
+                <img matListItemAvatar src="{{movie.ImagePath}}" />
+                <span matListItemTitle>{{movie.Title}}</span>
+            </mat-list-item>
+        </mat-list>
     </div>
 
     
@@ -17,10 +26,7 @@
 
         <br>
 
-        <mat-form-field class="item-a">
-            <mat-label> Name</mat-label>
-            <input matInput [(ngModel)]="userData.Name" type="text" name="Name">
-        </mat-form-field>
+       
 
         <mat-form-field class="item-b">
             <mat-label> Username </mat-label>

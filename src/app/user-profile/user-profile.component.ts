@@ -4,6 +4,7 @@ import { FetchApiDataService } from '../fetch-api-data.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { Router } from '@angular/router';
 import { formatDate } from '@angular/common';
+import { MatListModule } from '@angular/material/list';
 
 @Component({
   selector: 'app-user-profile',
@@ -12,13 +13,13 @@ import { formatDate } from '@angular/common';
 })
 export class UserProfileComponent implements OnInit {
 
-  user: any = {};
+  user: any = {  };
 
   favoriteMovies: any[] = [];
 
 
 
-  @Input() userData = { Name: '', Username: '', Password: '', Email: '', Birthday: '', };
+  @Input() userData = {  Username: '', Password: '', Email: '', Birthday: '', };
 
   constructor(
     public fetchApiData: FetchApiDataService,
@@ -42,11 +43,15 @@ export class UserProfileComponent implements OnInit {
       this.user = response;
       this.userData.Username = this.user.Username;
       this.userData.Email = this.user.Email;
-      this.user.Birthday = formatDate(this.user.Birthday, 'yyyy-MM-dd', 'en-US', 'UTC+0');
+      this.userData.Birthday = formatDate(this.user.Birth, 'yyyy-MM-dd', 'en-US', 'UTC+0');
+     
+      // Log the user object and userData object
+    console.log('User Object:', this.user);
+    console.log('userData object:', this.userData);
 
 
       this.fetchApiData.getAllMovies().subscribe((response: any) => {
-        this.favoriteMovies = response.filter((m: { _id: any }) => this.user.FavoriteMovies.indexOf(m._id) >= 0)
+        this.favoriteMovies = response.filter((m: { _id: any }) => this.user.Favourites.indexOf(m._id) >= 0)
       })
     })
   }
