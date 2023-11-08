@@ -140,17 +140,15 @@ export class FetchApiDataService {
  * @returns user info
  */
 getOneUser(): Observable<any> {
-  const username = localStorage.getItem('Username');
+  const user = JSON.parse(localStorage.getItem('user') || '{}');
   const token = localStorage.getItem('token');
-  return this.http.get(apiUrl + 'users/' + username, {
-    headers: new HttpHeaders(
-      {
+  return this.http
+    .get(apiUrl + 'users/' + user.Username, {
+      headers: new HttpHeaders({
         Authorization: 'Bearer ' + token,
-      })
-  }).pipe(
-    map(this.extractResponseData),
-    catchError(this.handleError)
-  );
+      }),
+    })
+    .pipe(map(this.extractResponseData), catchError(this.handleError));
 }
 /**
  * fetches the user's favorite movie array 
