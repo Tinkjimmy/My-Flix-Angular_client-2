@@ -1,0 +1,5522 @@
+{
+	"id": 0,
+	"name": "my-flix-angular-client",
+	"variant": "project",
+	"kind": 1,
+	"flags": {},
+	"children": [
+		{
+			"id": 1,
+			"name": "app.component",
+			"variant": "declaration",
+			"kind": 2,
+			"flags": {},
+			"children": [
+				{
+					"id": 2,
+					"name": "AppComponent",
+					"variant": "declaration",
+					"kind": 128,
+					"flags": {},
+					"children": [
+						{
+							"id": 3,
+							"name": "constructor",
+							"variant": "declaration",
+							"kind": 512,
+							"flags": {},
+							"signatures": [
+								{
+									"id": 4,
+									"name": "new AppComponent",
+									"variant": "signature",
+									"kind": 16384,
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"target": 2,
+										"name": "AppComponent",
+										"package": "my-flix-angular-client"
+									}
+								}
+							]
+						},
+						{
+							"id": 5,
+							"name": "title",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "app.component.ts",
+									"line": 9,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/app.component.ts#L9"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"defaultValue": "'myFlix-Angular-client'"
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"children": [
+								3
+							]
+						},
+						{
+							"title": "Properties",
+							"children": [
+								5
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "app.component.ts",
+							"line": 8,
+							"character": 13,
+							"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/app.component.ts#L8"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"children": [
+						2
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "app.component.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/app.component.ts#L1"
+				}
+			]
+		},
+		{
+			"id": 6,
+			"name": "fetch-api-data.service",
+			"variant": "declaration",
+			"kind": 2,
+			"flags": {},
+			"children": [
+				{
+					"id": 7,
+					"name": "FetchApiDataService",
+					"variant": "declaration",
+					"kind": 128,
+					"flags": {},
+					"children": [
+						{
+							"id": 8,
+							"name": "constructor",
+							"variant": "declaration",
+							"kind": 512,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "fetch-api-data.service.ts",
+									"line": 24,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L24"
+								}
+							],
+							"signatures": [
+								{
+									"id": 9,
+									"name": "new FetchApiDataService",
+									"variant": "signature",
+									"kind": 16384,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Inject the HttpClient module to the constructor params\r\nThis will provide HttpClient to the entire class, making it available via this.http"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "fetch-api-data.service.ts",
+											"line": 24,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L24"
+										}
+									],
+									"parameters": [
+										{
+											"id": 10,
+											"name": "http",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "node_modules/@angular/common/http/index.d.ts",
+													"qualifiedName": "HttpClient"
+												},
+												"name": "HttpClient",
+												"package": "@angular/common"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 7,
+										"name": "FetchApiDataService",
+										"package": "my-flix-angular-client"
+									}
+								}
+							]
+						},
+						{
+							"id": 11,
+							"name": "http",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isPrivate": true
+							},
+							"sources": [
+								{
+									"fileName": "fetch-api-data.service.ts",
+									"line": 24,
+									"character": 22,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L24"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "node_modules/@angular/common/http/index.d.ts",
+									"qualifiedName": "HttpClient"
+								},
+								"name": "HttpClient",
+								"package": "@angular/common"
+							}
+						},
+						{
+							"id": 33,
+							"name": "addFavoriteMovie",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "fetch-api-data.service.ts",
+									"line": 178,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L178"
+								}
+							],
+							"signatures": [
+								{
+									"id": 34,
+									"name": "addFavoriteMovie",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "adds a movie to a user's favorite movie array by movie id"
+											}
+										],
+										"blockTags": [
+											{
+												"tag": "@returns",
+												"content": [
+													{
+														"kind": "text",
+														"text": "user object"
+													}
+												]
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "fetch-api-data.service.ts",
+											"line": 178,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L178"
+										}
+									],
+									"parameters": [
+										{
+											"id": 35,
+											"name": "movieId",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "the movie id"
+													}
+												]
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "node_modules/rxjs/src/internal/Observable.ts",
+											"qualifiedName": "Observable"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "Observable",
+										"package": "rxjs"
+									}
+								}
+							]
+						},
+						{
+							"id": 44,
+							"name": "deleteFavoriteMovie",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "fetch-api-data.service.ts",
+									"line": 245,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L245"
+								}
+							],
+							"signatures": [
+								{
+									"id": 45,
+									"name": "deleteFavoriteMovie",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "deletes a movie from the user's favorite movie array by movie id"
+											}
+										],
+										"blockTags": [
+											{
+												"tag": "@returns",
+												"content": [
+													{
+														"kind": "text",
+														"text": "user object"
+													}
+												]
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "fetch-api-data.service.ts",
+											"line": 245,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L245"
+										}
+									],
+									"parameters": [
+										{
+											"id": 46,
+											"name": "movieId",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "the movie's id"
+													}
+												]
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "node_modules/rxjs/src/internal/Observable.ts",
+											"qualifiedName": "Observable"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "Observable",
+										"package": "rxjs"
+									}
+								}
+							]
+						},
+						{
+							"id": 42,
+							"name": "deleteUser",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "fetch-api-data.service.ts",
+									"line": 227,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L227"
+								}
+							],
+							"signatures": [
+								{
+									"id": 43,
+									"name": "deleteUser",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "deletes all info for a user by username"
+											}
+										],
+										"blockTags": [
+											{
+												"tag": "@returns",
+												"content": []
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "fetch-api-data.service.ts",
+											"line": 227,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L227"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "node_modules/rxjs/src/internal/Observable.ts",
+											"qualifiedName": "Observable"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "Observable",
+										"package": "rxjs"
+									}
+								}
+							]
+						},
+						{
+							"id": 39,
+							"name": "editUser",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "fetch-api-data.service.ts",
+									"line": 207,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L207"
+								}
+							],
+							"signatures": [
+								{
+									"id": 40,
+									"name": "editUser",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "updates the info for a user by username"
+											}
+										],
+										"blockTags": [
+											{
+												"tag": "@returns",
+												"content": [
+													{
+														"kind": "text",
+														"text": "user object"
+													}
+												]
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "fetch-api-data.service.ts",
+											"line": 207,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L207"
+										}
+									],
+									"parameters": [
+										{
+											"id": 41,
+											"name": "updatedUser",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "the new info for the user"
+													}
+												]
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "node_modules/rxjs/src/internal/Observable.ts",
+											"qualifiedName": "Observable"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "Observable",
+										"package": "rxjs"
+									}
+								}
+							]
+						},
+						{
+							"id": 47,
+							"name": "extractResponseData",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {
+								"isPrivate": true
+							},
+							"sources": [
+								{
+									"fileName": "fetch-api-data.service.ts",
+									"line": 273,
+									"character": 10,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L273"
+								}
+							],
+							"signatures": [
+								{
+									"id": 48,
+									"name": "extractResponseData",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [],
+										"blockTags": [
+											{
+												"tag": "@returns",
+												"content": []
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "fetch-api-data.service.ts",
+											"line": 273,
+											"character": 10,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L273"
+										}
+									],
+									"parameters": [
+										{
+											"id": 49,
+											"name": "res",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							]
+						},
+						{
+							"id": 18,
+							"name": "getAllMovies",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "fetch-api-data.service.ts",
+									"line": 55,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L55"
+								}
+							],
+							"signatures": [
+								{
+									"id": 19,
+									"name": "getAllMovies",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "fetches all movies from the api"
+											}
+										],
+										"blockTags": [
+											{
+												"tag": "@returns",
+												"content": [
+													{
+														"kind": "text",
+														"text": "array of all movies"
+													}
+												]
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "fetch-api-data.service.ts",
+											"line": 55,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L55"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "node_modules/rxjs/src/internal/Observable.ts",
+											"qualifiedName": "Observable"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "Observable",
+										"package": "rxjs"
+									}
+								}
+							]
+						},
+						{
+							"id": 31,
+							"name": "getFavoriteMovies",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "fetch-api-data.service.ts",
+									"line": 157,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L157"
+								}
+							],
+							"signatures": [
+								{
+									"id": 32,
+									"name": "getFavoriteMovies",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "fetches the user's favorite movie array"
+											}
+										],
+										"blockTags": [
+											{
+												"tag": "@returns",
+												"content": [
+													{
+														"kind": "text",
+														"text": "user's array of favorite movies by id"
+													}
+												]
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "fetch-api-data.service.ts",
+											"line": 157,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L157"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "node_modules/rxjs/src/internal/Observable.ts",
+											"qualifiedName": "Observable"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "Observable",
+										"package": "rxjs"
+									}
+								}
+							]
+						},
+						{
+							"id": 23,
+							"name": "getOneDirector",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "fetch-api-data.service.ts",
+									"line": 107,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L107"
+								}
+							],
+							"signatures": [
+								{
+									"id": 24,
+									"name": "getOneDirector",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "fetches the info for one director from the api"
+											}
+										],
+										"blockTags": [
+											{
+												"tag": "@returns",
+												"content": [
+													{
+														"kind": "text",
+														"text": "the director's info"
+													}
+												]
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "fetch-api-data.service.ts",
+											"line": 107,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L107"
+										}
+									],
+									"parameters": [
+										{
+											"id": 25,
+											"name": "directorName",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "name of the director"
+													}
+												]
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "node_modules/rxjs/src/internal/Observable.ts",
+											"qualifiedName": "Observable"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "Observable",
+										"package": "rxjs"
+									}
+								}
+							]
+						},
+						{
+							"id": 26,
+							"name": "getOneGenre",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "fetch-api-data.service.ts",
+									"line": 125,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L125"
+								}
+							],
+							"signatures": [
+								{
+									"id": 27,
+									"name": "getOneGenre",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "fetches the info for one genre from the api"
+											}
+										],
+										"blockTags": [
+											{
+												"tag": "@returns",
+												"content": [
+													{
+														"kind": "text",
+														"text": "the genre's info"
+													}
+												]
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "fetch-api-data.service.ts",
+											"line": 125,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L125"
+										}
+									],
+									"parameters": [
+										{
+											"id": 28,
+											"name": "genreName",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "name of the genre"
+													}
+												]
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "node_modules/rxjs/src/internal/Observable.ts",
+											"qualifiedName": "Observable"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "Observable",
+										"package": "rxjs"
+									}
+								}
+							]
+						},
+						{
+							"id": 20,
+							"name": "getOneMovie",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "fetch-api-data.service.ts",
+									"line": 89,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L89"
+								}
+							],
+							"signatures": [
+								{
+									"id": 21,
+									"name": "getOneMovie",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [],
+										"blockTags": [
+											{
+												"tag": "@description",
+												"content": [
+													{
+														"kind": "text",
+														"text": "Get a movie by title"
+													}
+												]
+											},
+											{
+												"tag": "@name",
+												"content": [
+													{
+														"kind": "text",
+														"text": "GET /movies/:Title"
+													}
+												]
+											},
+											{
+												"tag": "@example",
+												"content": [
+													{
+														"kind": "code",
+														"text": "```ts\nAuthentication: Bearer token (JWT)\n```"
+													}
+												]
+											},
+											{
+												"tag": "@example",
+												"content": [
+													{
+														"kind": "code",
+														"text": "```ts\nRequest data format\r\nnone\n```"
+													}
+												]
+											},
+											{
+												"tag": "@example",
+												"content": [
+													{
+														"kind": "code",
+														"text": "```ts\nResponse data format\r\n{\r\n  _id: ObjectID\r\n  \"Title\": \"\",\r\n  \"Description\": \"\",\r\n  \"Genre\": ObjectID,\r\n  \"Director\": [ObjectID],\r\n  \"Actors\": [ObjectID],\r\n  \"ImagePath\": \"\",\r\n  \"Featured\": Boolean,\r\n}\n```"
+													}
+												]
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "fetch-api-data.service.ts",
+											"line": 89,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L89"
+										}
+									],
+									"parameters": [
+										{
+											"id": 22,
+											"name": "title",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "node_modules/rxjs/src/internal/Observable.ts",
+											"qualifiedName": "Observable"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "Observable",
+										"package": "rxjs"
+									}
+								}
+							]
+						},
+						{
+							"id": 29,
+							"name": "getOneUser",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "fetch-api-data.service.ts",
+									"line": 142,
+									"character": 0,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L142"
+								}
+							],
+							"signatures": [
+								{
+									"id": 30,
+									"name": "getOneUser",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "fetches the info for one user from the api"
+											}
+										],
+										"blockTags": [
+											{
+												"tag": "@returns",
+												"content": [
+													{
+														"kind": "text",
+														"text": "user info"
+													}
+												]
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "fetch-api-data.service.ts",
+											"line": 142,
+											"character": 0,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L142"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "node_modules/rxjs/src/internal/Observable.ts",
+											"qualifiedName": "Observable"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "Observable",
+										"package": "rxjs"
+									}
+								}
+							]
+						},
+						{
+							"id": 50,
+							"name": "handleError",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {
+								"isPrivate": true
+							},
+							"sources": [
+								{
+									"fileName": "fetch-api-data.service.ts",
+									"line": 278,
+									"character": 10,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L278"
+								}
+							],
+							"signatures": [
+								{
+									"id": 51,
+									"name": "handleError",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "fetch-api-data.service.ts",
+											"line": 278,
+											"character": 10,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L278"
+										}
+									],
+									"parameters": [
+										{
+											"id": 52,
+											"name": "error",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "node_modules/@angular/common/http/index.d.ts",
+													"qualifiedName": "HttpErrorResponse"
+												},
+												"name": "HttpErrorResponse",
+												"package": "@angular/common"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							]
+						},
+						{
+							"id": 36,
+							"name": "isFavoriteMovie",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "fetch-api-data.service.ts",
+									"line": 195,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L195"
+								}
+							],
+							"signatures": [
+								{
+									"id": 37,
+									"name": "isFavoriteMovie",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "fetch-api-data.service.ts",
+											"line": 195,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L195"
+										}
+									],
+									"parameters": [
+										{
+											"id": 38,
+											"name": "movieId",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								}
+							]
+						},
+						{
+							"id": 15,
+							"name": "userLogin",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {
+								"isPublic": true
+							},
+							"sources": [
+								{
+									"fileName": "fetch-api-data.service.ts",
+									"line": 43,
+									"character": 11,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L43"
+								}
+							],
+							"signatures": [
+								{
+									"id": 16,
+									"name": "userLogin",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "checks if the username and password are correct and gives user a token"
+											}
+										],
+										"blockTags": [
+											{
+												"tag": "@returns",
+												"content": [
+													{
+														"kind": "text",
+														"text": "token and user info"
+													}
+												]
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "fetch-api-data.service.ts",
+											"line": 43,
+											"character": 11,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L43"
+										}
+									],
+									"parameters": [
+										{
+											"id": 17,
+											"name": "userDetails",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "object with the user's username and password"
+													}
+												]
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "node_modules/rxjs/src/internal/Observable.ts",
+											"qualifiedName": "Observable"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "Observable",
+										"package": "rxjs"
+									}
+								}
+							]
+						},
+						{
+							"id": 12,
+							"name": "userRegistration",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {
+								"isPublic": true
+							},
+							"sources": [
+								{
+									"fileName": "fetch-api-data.service.ts",
+									"line": 31,
+									"character": 9,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L31"
+								}
+							],
+							"signatures": [
+								{
+									"id": 13,
+									"name": "userRegistration",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Making the api call for the user registration endpoint"
+											}
+										],
+										"blockTags": [
+											{
+												"tag": "@returns",
+												"content": [
+													{
+														"kind": "text",
+														"text": "an observable with the created user"
+													}
+												]
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "fetch-api-data.service.ts",
+											"line": 31,
+											"character": 9,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L31"
+										}
+									],
+									"parameters": [
+										{
+											"id": 14,
+											"name": "userDetails",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "object with the details of the user"
+													}
+												]
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "node_modules/rxjs/src/internal/Observable.ts",
+											"qualifiedName": "Observable"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "any"
+											}
+										],
+										"name": "Observable",
+										"package": "rxjs"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"children": [
+								8
+							]
+						},
+						{
+							"title": "Properties",
+							"children": [
+								11
+							]
+						},
+						{
+							"title": "Methods",
+							"children": [
+								33,
+								44,
+								42,
+								39,
+								47,
+								18,
+								31,
+								23,
+								26,
+								20,
+								29,
+								50,
+								36,
+								15,
+								12
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "fetch-api-data.service.ts",
+							"line": 18,
+							"character": 13,
+							"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L18"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"children": [
+						7
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "fetch-api-data.service.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/fetch-api-data.service.ts#L1"
+				}
+			]
+		},
+		{
+			"id": 53,
+			"name": "movie-card/movie-card.component",
+			"variant": "declaration",
+			"kind": 2,
+			"flags": {},
+			"children": [
+				{
+					"id": 54,
+					"name": "MovieCardComponent",
+					"variant": "declaration",
+					"kind": 128,
+					"flags": {},
+					"children": [
+						{
+							"id": 55,
+							"name": "constructor",
+							"variant": "declaration",
+							"kind": 512,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "movie-card/movie-card.component.ts",
+									"line": 17,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-card/movie-card.component.ts#L17"
+								}
+							],
+							"signatures": [
+								{
+									"id": 56,
+									"name": "new MovieCardComponent",
+									"variant": "signature",
+									"kind": 16384,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "movie-card/movie-card.component.ts",
+											"line": 17,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-card/movie-card.component.ts#L17"
+										}
+									],
+									"parameters": [
+										{
+											"id": 57,
+											"name": "fetchApiData",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": 7,
+												"name": "FetchApiDataService",
+												"package": "my-flix-angular-client"
+											}
+										},
+										{
+											"id": 58,
+											"name": "snackBar",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "node_modules/@angular/material/snack-bar/index.d.ts",
+													"qualifiedName": "MatSnackBar"
+												},
+												"name": "MatSnackBar",
+												"package": "@angular/material"
+											}
+										},
+										{
+											"id": 59,
+											"name": "dialog",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "node_modules/@angular/material/dialog/index.d.ts",
+													"qualifiedName": "MatDialog"
+												},
+												"name": "MatDialog",
+												"package": "@angular/material"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 54,
+										"name": "MovieCardComponent",
+										"package": "my-flix-angular-client"
+									}
+								}
+							]
+						},
+						{
+							"id": 63,
+							"name": "dialog",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isPublic": true
+							},
+							"sources": [
+								{
+									"fileName": "movie-card/movie-card.component.ts",
+									"line": 20,
+									"character": 11,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-card/movie-card.component.ts#L20"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "node_modules/@angular/material/dialog/index.d.ts",
+									"qualifiedName": "MatDialog"
+								},
+								"name": "MatDialog",
+								"package": "@angular/material"
+							}
+						},
+						{
+							"id": 61,
+							"name": "fetchApiData",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isPublic": true
+							},
+							"sources": [
+								{
+									"fileName": "movie-card/movie-card.component.ts",
+									"line": 18,
+									"character": 11,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-card/movie-card.component.ts#L18"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 7,
+								"name": "FetchApiDataService",
+								"package": "my-flix-angular-client"
+							}
+						},
+						{
+							"id": 60,
+							"name": "movies",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "movie-card/movie-card.component.ts",
+									"line": 15,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-card/movie-card.component.ts#L15"
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "any"
+								}
+							},
+							"defaultValue": "[]"
+						},
+						{
+							"id": 62,
+							"name": "snackBar",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isPublic": true
+							},
+							"sources": [
+								{
+									"fileName": "movie-card/movie-card.component.ts",
+									"line": 19,
+									"character": 11,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-card/movie-card.component.ts#L19"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "node_modules/@angular/material/snack-bar/index.d.ts",
+									"qualifiedName": "MatSnackBar"
+								},
+								"name": "MatSnackBar",
+								"package": "@angular/material"
+							}
+						},
+						{
+							"id": 79,
+							"name": "addFavorite",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "movie-card/movie-card.component.ts",
+									"line": 94,
+									"character": 3,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-card/movie-card.component.ts#L94"
+								}
+							],
+							"signatures": [
+								{
+									"id": 80,
+									"name": "addFavorite",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "movie-card/movie-card.component.ts",
+											"line": 94,
+											"character": 3,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-card/movie-card.component.ts#L94"
+										}
+									],
+									"parameters": [
+										{
+											"id": 81,
+											"name": "id",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "movies will be added/deleted to the users favorite movie array. \r\nisFavorite is created to check if the movie has been added."
+													}
+												]
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 72,
+							"name": "getDirector",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "movie-card/movie-card.component.ts",
+									"line": 62,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-card/movie-card.component.ts#L62"
+								}
+							],
+							"signatures": [
+								{
+									"id": 73,
+									"name": "getDirector",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "movie-card/movie-card.component.ts",
+											"line": 62,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-card/movie-card.component.ts#L62"
+										}
+									],
+									"parameters": [
+										{
+											"id": 74,
+											"name": "name",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 75,
+											"name": "bio",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "param data will be passed into the dialog when opened."
+													}
+												]
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 68,
+							"name": "getGenre",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "movie-card/movie-card.component.ts",
+									"line": 46,
+									"character": 4,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-card/movie-card.component.ts#L46"
+								}
+							],
+							"signatures": [
+								{
+									"id": 69,
+									"name": "getGenre",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "movie-card/movie-card.component.ts",
+											"line": 46,
+											"character": 4,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-card/movie-card.component.ts#L46"
+										}
+									],
+									"parameters": [
+										{
+											"id": 70,
+											"name": "name",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 71,
+											"name": "description",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "param data will be passed into the dialog when opened."
+													}
+												]
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 66,
+							"name": "getMovies",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "movie-card/movie-card.component.ts",
+									"line": 31,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-card/movie-card.component.ts#L31"
+								}
+							],
+							"signatures": [
+								{
+									"id": 67,
+									"name": "getMovies",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "fetches all movies from the api"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "movie-card/movie-card.component.ts",
+											"line": 31,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-card/movie-card.component.ts#L31"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 76,
+							"name": "getSynopsis",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "movie-card/movie-card.component.ts",
+									"line": 77,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-card/movie-card.component.ts#L77"
+								}
+							],
+							"signatures": [
+								{
+									"id": 77,
+									"name": "getSynopsis",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "movie-card/movie-card.component.ts",
+											"line": 77,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-card/movie-card.component.ts#L77"
+										}
+									],
+									"parameters": [
+										{
+											"id": 78,
+											"name": "description",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "param data will be passed into the dialog when opened."
+													}
+												]
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 82,
+							"name": "isFavorite",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "movie-card/movie-card.component.ts",
+									"line": 102,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-card/movie-card.component.ts#L102"
+								}
+							],
+							"signatures": [
+								{
+									"id": 83,
+									"name": "isFavorite",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "movie-card/movie-card.component.ts",
+											"line": 102,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-card/movie-card.component.ts#L102"
+										}
+									],
+									"parameters": [
+										{
+											"id": 84,
+											"name": "id",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								}
+							]
+						},
+						{
+							"id": 64,
+							"name": "ngOnInit",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "movie-card/movie-card.component.ts",
+									"line": 23,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-card/movie-card.component.ts#L23"
+								}
+							],
+							"signatures": [
+								{
+									"id": 65,
+									"name": "ngOnInit",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "movie-card/movie-card.component.ts",
+											"line": 23,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-card/movie-card.component.ts#L23"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 85,
+							"name": "removeFavorite",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "movie-card/movie-card.component.ts",
+									"line": 106,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-card/movie-card.component.ts#L106"
+								}
+							],
+							"signatures": [
+								{
+									"id": 86,
+									"name": "removeFavorite",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "movie-card/movie-card.component.ts",
+											"line": 106,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-card/movie-card.component.ts#L106"
+										}
+									],
+									"parameters": [
+										{
+											"id": 87,
+											"name": "id",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"children": [
+								55
+							]
+						},
+						{
+							"title": "Properties",
+							"children": [
+								63,
+								61,
+								60,
+								62
+							]
+						},
+						{
+							"title": "Methods",
+							"children": [
+								79,
+								72,
+								68,
+								66,
+								76,
+								82,
+								64,
+								85
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "movie-card/movie-card.component.ts",
+							"line": 13,
+							"character": 13,
+							"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-card/movie-card.component.ts#L13"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"children": [
+						54
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "movie-card/movie-card.component.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-card/movie-card.component.ts#L1"
+				}
+			]
+		},
+		{
+			"id": 88,
+			"name": "movie-info/movie-info.component",
+			"variant": "declaration",
+			"kind": 2,
+			"flags": {},
+			"children": [
+				{
+					"id": 89,
+					"name": "MovieInfoComponent",
+					"variant": "declaration",
+					"kind": 128,
+					"flags": {},
+					"children": [
+						{
+							"id": 90,
+							"name": "constructor",
+							"variant": "declaration",
+							"kind": 512,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "movie-info/movie-info.component.ts",
+									"line": 18,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-info/movie-info.component.ts#L18"
+								}
+							],
+							"signatures": [
+								{
+									"id": 91,
+									"name": "new MovieInfoComponent",
+									"variant": "signature",
+									"kind": 16384,
+									"flags": {},
+									"comment": {
+										"summary": [],
+										"blockTags": [
+											{
+												"tag": "@inject",
+												"content": [
+													{
+														"kind": "text",
+														"text": "to add data from the movie object into the dialog modal in the movie-info-componenent.html."
+													}
+												]
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "movie-info/movie-info.component.ts",
+											"line": 18,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-info/movie-info.component.ts#L18"
+										}
+									],
+									"parameters": [
+										{
+											"id": 92,
+											"name": "data",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "use"
+													}
+												]
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 93,
+													"name": "__type",
+													"variant": "declaration",
+													"kind": 65536,
+													"flags": {},
+													"children": [
+														{
+															"id": 95,
+															"name": "content",
+															"variant": "declaration",
+															"kind": 1024,
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "movie-info/movie-info.component.ts",
+																	"line": 22,
+																	"character": 6,
+																	"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-info/movie-info.component.ts#L22"
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														},
+														{
+															"id": 94,
+															"name": "title",
+															"variant": "declaration",
+															"kind": 1024,
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "movie-info/movie-info.component.ts",
+																	"line": 21,
+																	"character": 6,
+																	"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-info/movie-info.component.ts#L21"
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														}
+													],
+													"groups": [
+														{
+															"title": "Properties",
+															"children": [
+																95,
+																94
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "movie-info/movie-info.component.ts",
+															"line": 20,
+															"character": 17,
+															"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-info/movie-info.component.ts#L20"
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 89,
+										"name": "MovieInfoComponent",
+										"package": "my-flix-angular-client"
+									}
+								}
+							]
+						},
+						{
+							"id": 96,
+							"name": "data",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isPublic": true
+							},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "use"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "movie-info/movie-info.component.ts",
+									"line": 20,
+									"character": 11,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-info/movie-info.component.ts#L20"
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 97,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"children": [
+										{
+											"id": 99,
+											"name": "content",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "movie-info/movie-info.component.ts",
+													"line": 22,
+													"character": 6,
+													"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-info/movie-info.component.ts#L22"
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 98,
+											"name": "title",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "movie-info/movie-info.component.ts",
+													"line": 21,
+													"character": 6,
+													"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-info/movie-info.component.ts#L21"
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"children": [
+												99,
+												98
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "movie-info/movie-info.component.ts",
+											"line": 20,
+											"character": 17,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-info/movie-info.component.ts#L20"
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": 100,
+							"name": "ngOnInit",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "movie-info/movie-info.component.ts",
+									"line": 27,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-info/movie-info.component.ts#L27"
+								}
+							],
+							"signatures": [
+								{
+									"id": 101,
+									"name": "ngOnInit",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "movie-info/movie-info.component.ts",
+											"line": 27,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-info/movie-info.component.ts#L27"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"implementationOf": {
+										"type": "reference",
+										"target": -1,
+										"name": "OnInit.ngOnInit"
+									}
+								}
+							],
+							"implementationOf": {
+								"type": "reference",
+								"target": -1,
+								"name": "OnInit.ngOnInit"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"children": [
+								90
+							]
+						},
+						{
+							"title": "Properties",
+							"children": [
+								96
+							]
+						},
+						{
+							"title": "Methods",
+							"children": [
+								100
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "movie-info/movie-info.component.ts",
+							"line": 9,
+							"character": 13,
+							"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-info/movie-info.component.ts#L9"
+						}
+					],
+					"implementedTypes": [
+						{
+							"type": "reference",
+							"target": {
+								"sourceFileName": "node_modules/@angular/core/index.d.ts",
+								"qualifiedName": "OnInit"
+							},
+							"name": "OnInit",
+							"package": "@angular/core"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"children": [
+						89
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "movie-info/movie-info.component.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/movie-info/movie-info.component.ts#L1"
+				}
+			]
+		},
+		{
+			"id": 102,
+			"name": "navbar/navbar.component",
+			"variant": "declaration",
+			"kind": 2,
+			"flags": {},
+			"children": [
+				{
+					"id": 103,
+					"name": "NavbarComponent",
+					"variant": "declaration",
+					"kind": 128,
+					"flags": {},
+					"children": [
+						{
+							"id": 104,
+							"name": "constructor",
+							"variant": "declaration",
+							"kind": 512,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "navbar/navbar.component.ts",
+									"line": 10,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/navbar/navbar.component.ts#L10"
+								}
+							],
+							"signatures": [
+								{
+									"id": 105,
+									"name": "new NavbarComponent",
+									"variant": "signature",
+									"kind": 16384,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "navbar/navbar.component.ts",
+											"line": 10,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/navbar/navbar.component.ts#L10"
+										}
+									],
+									"parameters": [
+										{
+											"id": 106,
+											"name": "router",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "node_modules/@angular/router/index.d.ts",
+													"qualifiedName": "Router"
+												},
+												"name": "Router",
+												"package": "@angular/router"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 103,
+										"name": "NavbarComponent",
+										"package": "my-flix-angular-client"
+									}
+								}
+							]
+						},
+						{
+							"id": 107,
+							"name": "router",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isPublic": true
+							},
+							"sources": [
+								{
+									"fileName": "navbar/navbar.component.ts",
+									"line": 10,
+									"character": 21,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/navbar/navbar.component.ts#L10"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "node_modules/@angular/router/index.d.ts",
+									"qualifiedName": "Router"
+								},
+								"name": "Router",
+								"package": "@angular/router"
+							}
+						},
+						{
+							"id": 110,
+							"name": "goToMovies",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "navbar/navbar.component.ts",
+									"line": 17,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/navbar/navbar.component.ts#L17"
+								}
+							],
+							"signatures": [
+								{
+									"id": 111,
+									"name": "goToMovies",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "navigates to movies page"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "navbar/navbar.component.ts",
+											"line": 17,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/navbar/navbar.component.ts#L17"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 112,
+							"name": "goToProfile",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "navbar/navbar.component.ts",
+									"line": 24,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/navbar/navbar.component.ts#L24"
+								}
+							],
+							"signatures": [
+								{
+									"id": 113,
+									"name": "goToProfile",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "navigates to user's profile page"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "navbar/navbar.component.ts",
+											"line": 24,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/navbar/navbar.component.ts#L24"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 114,
+							"name": "logOut",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "navbar/navbar.component.ts",
+									"line": 31,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/navbar/navbar.component.ts#L31"
+								}
+							],
+							"signatures": [
+								{
+									"id": 115,
+									"name": "logOut",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "logs out user"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "navbar/navbar.component.ts",
+											"line": 31,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/navbar/navbar.component.ts#L31"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 108,
+							"name": "ngOnInit",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "navbar/navbar.component.ts",
+									"line": 12,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/navbar/navbar.component.ts#L12"
+								}
+							],
+							"signatures": [
+								{
+									"id": 109,
+									"name": "ngOnInit",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "navbar/navbar.component.ts",
+											"line": 12,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/navbar/navbar.component.ts#L12"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"implementationOf": {
+										"type": "reference",
+										"target": -1,
+										"name": "OnInit.ngOnInit"
+									}
+								}
+							],
+							"implementationOf": {
+								"type": "reference",
+								"target": -1,
+								"name": "OnInit.ngOnInit"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"children": [
+								104
+							]
+						},
+						{
+							"title": "Properties",
+							"children": [
+								107
+							]
+						},
+						{
+							"title": "Methods",
+							"children": [
+								110,
+								112,
+								114,
+								108
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "navbar/navbar.component.ts",
+							"line": 9,
+							"character": 13,
+							"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/navbar/navbar.component.ts#L9"
+						}
+					],
+					"implementedTypes": [
+						{
+							"type": "reference",
+							"target": {
+								"sourceFileName": "node_modules/@angular/core/index.d.ts",
+								"qualifiedName": "OnInit"
+							},
+							"name": "OnInit",
+							"package": "@angular/core"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"children": [
+						103
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "navbar/navbar.component.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/navbar/navbar.component.ts#L1"
+				}
+			]
+		},
+		{
+			"id": 116,
+			"name": "user-login-form/user-login-form.component",
+			"variant": "declaration",
+			"kind": 2,
+			"flags": {},
+			"children": [
+				{
+					"id": 117,
+					"name": "UserLoginFormComponent",
+					"variant": "declaration",
+					"kind": 128,
+					"flags": {},
+					"children": [
+						{
+							"id": 118,
+							"name": "constructor",
+							"variant": "declaration",
+							"kind": 512,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "user-login-form/user-login-form.component.ts",
+									"line": 24,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-login-form/user-login-form.component.ts#L24"
+								}
+							],
+							"signatures": [
+								{
+									"id": 119,
+									"name": "new UserLoginFormComponent",
+									"variant": "signature",
+									"kind": 16384,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "user-login-form/user-login-form.component.ts",
+											"line": 24,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-login-form/user-login-form.component.ts#L24"
+										}
+									],
+									"parameters": [
+										{
+											"id": 120,
+											"name": "fetchApiData",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": 7,
+												"name": "FetchApiDataService",
+												"package": "my-flix-angular-client"
+											}
+										},
+										{
+											"id": 121,
+											"name": "dialogRef",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "node_modules/@angular/material/dialog/index.d.ts",
+													"qualifiedName": "MatDialogRef"
+												},
+												"typeArguments": [
+													{
+														"type": "reference",
+														"target": 117,
+														"name": "UserLoginFormComponent",
+														"package": "my-flix-angular-client"
+													},
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "MatDialogRef",
+												"package": "@angular/material"
+											}
+										},
+										{
+											"id": 122,
+											"name": "snackBar",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "node_modules/@angular/material/snack-bar/index.d.ts",
+													"qualifiedName": "MatSnackBar"
+												},
+												"name": "MatSnackBar",
+												"package": "@angular/material"
+											}
+										},
+										{
+											"id": 123,
+											"name": "router",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "node_modules/@angular/router/index.d.ts",
+													"qualifiedName": "Router"
+												},
+												"name": "Router",
+												"package": "@angular/router"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 117,
+										"name": "UserLoginFormComponent",
+										"package": "my-flix-angular-client"
+									}
+								}
+							]
+						},
+						{
+							"id": 129,
+							"name": "dialogRef",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isPublic": true
+							},
+							"sources": [
+								{
+									"fileName": "user-login-form/user-login-form.component.ts",
+									"line": 26,
+									"character": 11,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-login-form/user-login-form.component.ts#L26"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "node_modules/@angular/material/dialog/index.d.ts",
+									"qualifiedName": "MatDialogRef"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 117,
+										"name": "UserLoginFormComponent",
+										"package": "my-flix-angular-client"
+									},
+									{
+										"type": "intrinsic",
+										"name": "any"
+									}
+								],
+								"name": "MatDialogRef",
+								"package": "@angular/material"
+							}
+						},
+						{
+							"id": 128,
+							"name": "fetchApiData",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isPublic": true
+							},
+							"sources": [
+								{
+									"fileName": "user-login-form/user-login-form.component.ts",
+									"line": 25,
+									"character": 11,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-login-form/user-login-form.component.ts#L25"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 7,
+								"name": "FetchApiDataService",
+								"package": "my-flix-angular-client"
+							}
+						},
+						{
+							"id": 124,
+							"name": "loginData",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "user-login-form/user-login-form.component.ts",
+									"line": 22,
+									"character": 11,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-login-form/user-login-form.component.ts#L22"
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 125,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"children": [
+										{
+											"id": 127,
+											"name": "Password",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "user-login-form/user-login-form.component.ts",
+													"line": 22,
+													"character": 39,
+													"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-login-form/user-login-form.component.ts#L22"
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											},
+											"defaultValue": "''"
+										},
+										{
+											"id": 126,
+											"name": "Username",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "user-login-form/user-login-form.component.ts",
+													"line": 22,
+													"character": 25,
+													"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-login-form/user-login-form.component.ts#L22"
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											},
+											"defaultValue": "''"
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"children": [
+												127,
+												126
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "user-login-form/user-login-form.component.ts",
+											"line": 22,
+											"character": 23,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-login-form/user-login-form.component.ts#L22"
+										}
+									]
+								}
+							},
+							"defaultValue": "..."
+						},
+						{
+							"id": 131,
+							"name": "router",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isPrivate": true
+							},
+							"sources": [
+								{
+									"fileName": "user-login-form/user-login-form.component.ts",
+									"line": 28,
+									"character": 12,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-login-form/user-login-form.component.ts#L28"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "node_modules/@angular/router/index.d.ts",
+									"qualifiedName": "Router"
+								},
+								"name": "Router",
+								"package": "@angular/router"
+							}
+						},
+						{
+							"id": 130,
+							"name": "snackBar",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isPublic": true
+							},
+							"sources": [
+								{
+									"fileName": "user-login-form/user-login-form.component.ts",
+									"line": 27,
+									"character": 11,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-login-form/user-login-form.component.ts#L27"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "node_modules/@angular/material/snack-bar/index.d.ts",
+									"qualifiedName": "MatSnackBar"
+								},
+								"name": "MatSnackBar",
+								"package": "@angular/material"
+							}
+						},
+						{
+							"id": 134,
+							"name": "loginUser",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "user-login-form/user-login-form.component.ts",
+									"line": 42,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-login-form/user-login-form.component.ts#L42"
+								}
+							],
+							"signatures": [
+								{
+									"id": 135,
+									"name": "loginUser",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "This method will send the form inputs to the backend"
+											}
+										],
+										"blockTags": [
+											{
+												"tag": "@returns",
+												"content": [
+													{
+														"kind": "text",
+														"text": "user object"
+													}
+												]
+											},
+											{
+												"tag": "@memberof",
+												"content": [
+													{
+														"kind": "text",
+														"text": "UserLoginFormComponent"
+													}
+												]
+											},
+											{
+												"tag": "@see",
+												"content": [
+													{
+														"kind": "text",
+														"text": "FetchApiDataService.userLogin()"
+													}
+												]
+											},
+											{
+												"tag": "@example",
+												"content": [
+													{
+														"kind": "code",
+														"text": "```ts\nloginUser()\n```"
+													}
+												]
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "user-login-form/user-login-form.component.ts",
+											"line": 42,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-login-form/user-login-form.component.ts#L42"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 132,
+							"name": "ngOnInit",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "user-login-form/user-login-form.component.ts",
+									"line": 31,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-login-form/user-login-form.component.ts#L31"
+								}
+							],
+							"signatures": [
+								{
+									"id": 133,
+									"name": "ngOnInit",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "user-login-form/user-login-form.component.ts",
+											"line": 31,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-login-form/user-login-form.component.ts#L31"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"implementationOf": {
+										"type": "reference",
+										"target": -1,
+										"name": "OnInit.ngOnInit"
+									}
+								}
+							],
+							"implementationOf": {
+								"type": "reference",
+								"target": -1,
+								"name": "OnInit.ngOnInit"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"children": [
+								118
+							]
+						},
+						{
+							"title": "Properties",
+							"children": [
+								129,
+								128,
+								124,
+								131,
+								130
+							]
+						},
+						{
+							"title": "Methods",
+							"children": [
+								134,
+								132
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "user-login-form/user-login-form.component.ts",
+							"line": 20,
+							"character": 13,
+							"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-login-form/user-login-form.component.ts#L20"
+						}
+					],
+					"implementedTypes": [
+						{
+							"type": "reference",
+							"target": {
+								"sourceFileName": "node_modules/@angular/core/index.d.ts",
+								"qualifiedName": "OnInit"
+							},
+							"name": "OnInit",
+							"package": "@angular/core"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"children": [
+						117
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "user-login-form/user-login-form.component.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-login-form/user-login-form.component.ts#L1"
+				}
+			]
+		},
+		{
+			"id": 136,
+			"name": "user-profile/user-profile.component",
+			"variant": "declaration",
+			"kind": 2,
+			"flags": {},
+			"children": [
+				{
+					"id": 137,
+					"name": "UserProfileComponent",
+					"variant": "declaration",
+					"kind": 128,
+					"flags": {},
+					"children": [
+						{
+							"id": 138,
+							"name": "constructor",
+							"variant": "declaration",
+							"kind": 512,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "user-profile/user-profile.component.ts",
+									"line": 24,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-profile/user-profile.component.ts#L24"
+								}
+							],
+							"signatures": [
+								{
+									"id": 139,
+									"name": "new UserProfileComponent",
+									"variant": "signature",
+									"kind": 16384,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "user-profile/user-profile.component.ts",
+											"line": 24,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-profile/user-profile.component.ts#L24"
+										}
+									],
+									"parameters": [
+										{
+											"id": 140,
+											"name": "fetchApiData",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": 7,
+												"name": "FetchApiDataService",
+												"package": "my-flix-angular-client"
+											}
+										},
+										{
+											"id": 141,
+											"name": "snackBar",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "node_modules/@angular/material/snack-bar/index.d.ts",
+													"qualifiedName": "MatSnackBar"
+												},
+												"name": "MatSnackBar",
+												"package": "@angular/material"
+											}
+										},
+										{
+											"id": 142,
+											"name": "router",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "node_modules/@angular/router/index.d.ts",
+													"qualifiedName": "Router"
+												},
+												"name": "Router",
+												"package": "@angular/router"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 137,
+										"name": "UserProfileComponent",
+										"package": "my-flix-angular-client"
+									}
+								}
+							]
+						},
+						{
+							"id": 144,
+							"name": "favoriteMovies",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "user-profile/user-profile.component.ts",
+									"line": 18,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-profile/user-profile.component.ts#L18"
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "any"
+								}
+							},
+							"defaultValue": "[]"
+						},
+						{
+							"id": 151,
+							"name": "fetchApiData",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isPublic": true
+							},
+							"sources": [
+								{
+									"fileName": "user-profile/user-profile.component.ts",
+									"line": 25,
+									"character": 11,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-profile/user-profile.component.ts#L25"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 7,
+								"name": "FetchApiDataService",
+								"package": "my-flix-angular-client"
+							}
+						},
+						{
+							"id": 153,
+							"name": "router",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isPrivate": true
+							},
+							"sources": [
+								{
+									"fileName": "user-profile/user-profile.component.ts",
+									"line": 27,
+									"character": 12,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-profile/user-profile.component.ts#L27"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "node_modules/@angular/router/index.d.ts",
+									"qualifiedName": "Router"
+								},
+								"name": "Router",
+								"package": "@angular/router"
+							}
+						},
+						{
+							"id": 152,
+							"name": "snackBar",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isPublic": true
+							},
+							"sources": [
+								{
+									"fileName": "user-profile/user-profile.component.ts",
+									"line": 26,
+									"character": 11,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-profile/user-profile.component.ts#L26"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "node_modules/@angular/material/snack-bar/index.d.ts",
+									"qualifiedName": "MatSnackBar"
+								},
+								"name": "MatSnackBar",
+								"package": "@angular/material"
+							}
+						},
+						{
+							"id": 143,
+							"name": "user",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "user-profile/user-profile.component.ts",
+									"line": 16,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-profile/user-profile.component.ts#L16"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							},
+							"defaultValue": "{}"
+						},
+						{
+							"id": 145,
+							"name": "userData",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "user-profile/user-profile.component.ts",
+									"line": 22,
+									"character": 11,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-profile/user-profile.component.ts#L22"
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 146,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"children": [
+										{
+											"id": 150,
+											"name": "Birthday",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "user-profile/user-profile.component.ts",
+													"line": 22,
+													"character": 64,
+													"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-profile/user-profile.component.ts#L22"
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											},
+											"defaultValue": "''"
+										},
+										{
+											"id": 149,
+											"name": "Email",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "user-profile/user-profile.component.ts",
+													"line": 22,
+													"character": 53,
+													"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-profile/user-profile.component.ts#L22"
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											},
+											"defaultValue": "''"
+										},
+										{
+											"id": 148,
+											"name": "Password",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "user-profile/user-profile.component.ts",
+													"line": 22,
+													"character": 39,
+													"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-profile/user-profile.component.ts#L22"
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											},
+											"defaultValue": "''"
+										},
+										{
+											"id": 147,
+											"name": "Username",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "user-profile/user-profile.component.ts",
+													"line": 22,
+													"character": 25,
+													"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-profile/user-profile.component.ts#L22"
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											},
+											"defaultValue": "''"
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"children": [
+												150,
+												149,
+												148,
+												147
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "user-profile/user-profile.component.ts",
+											"line": 22,
+											"character": 22,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-profile/user-profile.component.ts#L22"
+										}
+									]
+								}
+							},
+							"defaultValue": "..."
+						},
+						{
+							"id": 160,
+							"name": "deleteUser",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "user-profile/user-profile.component.ts",
+									"line": 82,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-profile/user-profile.component.ts#L82"
+								}
+							],
+							"signatures": [
+								{
+									"id": 161,
+									"name": "deleteUser",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "delete user will delete their account permanently and be sent back to the welcome screen"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "user-profile/user-profile.component.ts",
+											"line": 82,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-profile/user-profile.component.ts#L82"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 158,
+							"name": "editUser",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "user-profile/user-profile.component.ts",
+									"line": 62,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-profile/user-profile.component.ts#L62"
+								}
+							],
+							"signatures": [
+								{
+									"id": 159,
+									"name": "editUser",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "edit user will take the new user data and send it back to the db and set the localstorage"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "user-profile/user-profile.component.ts",
+											"line": 62,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-profile/user-profile.component.ts#L62"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 156,
+							"name": "getUser",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "user-profile/user-profile.component.ts",
+									"line": 41,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-profile/user-profile.component.ts#L41"
+								}
+							],
+							"signatures": [
+								{
+									"id": 157,
+									"name": "getUser",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "get user will get all of the users data so we can display it. \n get all movies will filter all of the movies id that are in the favorite movies array."
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "user-profile/user-profile.component.ts",
+											"line": 41,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-profile/user-profile.component.ts#L41"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 154,
+							"name": "ngOnInit",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "user-profile/user-profile.component.ts",
+									"line": 31,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-profile/user-profile.component.ts#L31"
+								}
+							],
+							"signatures": [
+								{
+									"id": 155,
+									"name": "ngOnInit",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "user-profile/user-profile.component.ts",
+											"line": 31,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-profile/user-profile.component.ts#L31"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"implementationOf": {
+										"type": "reference",
+										"target": -1,
+										"name": "OnInit.ngOnInit"
+									}
+								}
+							],
+							"implementationOf": {
+								"type": "reference",
+								"target": -1,
+								"name": "OnInit.ngOnInit"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"children": [
+								138
+							]
+						},
+						{
+							"title": "Properties",
+							"children": [
+								144,
+								151,
+								153,
+								152,
+								143,
+								145
+							]
+						},
+						{
+							"title": "Methods",
+							"children": [
+								160,
+								158,
+								156,
+								154
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "user-profile/user-profile.component.ts",
+							"line": 14,
+							"character": 13,
+							"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-profile/user-profile.component.ts#L14"
+						}
+					],
+					"implementedTypes": [
+						{
+							"type": "reference",
+							"target": {
+								"sourceFileName": "node_modules/@angular/core/index.d.ts",
+								"qualifiedName": "OnInit"
+							},
+							"name": "OnInit",
+							"package": "@angular/core"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"children": [
+						137
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "user-profile/user-profile.component.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-profile/user-profile.component.ts#L1"
+				}
+			]
+		},
+		{
+			"id": 162,
+			"name": "user-registration-form/user-registration-form.component",
+			"variant": "declaration",
+			"kind": 2,
+			"flags": {},
+			"children": [
+				{
+					"id": 163,
+					"name": "UserRegistrationFormComponent",
+					"variant": "declaration",
+					"kind": 128,
+					"flags": {},
+					"children": [
+						{
+							"id": 164,
+							"name": "constructor",
+							"variant": "declaration",
+							"kind": 512,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "user-registration-form/user-registration-form.component.ts",
+									"line": 20,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-registration-form/user-registration-form.component.ts#L20"
+								}
+							],
+							"signatures": [
+								{
+									"id": 165,
+									"name": "new UserRegistrationFormComponent",
+									"variant": "signature",
+									"kind": 16384,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "user-registration-form/user-registration-form.component.ts",
+											"line": 20,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-registration-form/user-registration-form.component.ts#L20"
+										}
+									],
+									"parameters": [
+										{
+											"id": 166,
+											"name": "fetchApiData",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": 7,
+												"name": "FetchApiDataService",
+												"package": "my-flix-angular-client"
+											}
+										},
+										{
+											"id": 167,
+											"name": "dialogRef",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "node_modules/@angular/material/dialog/index.d.ts",
+													"qualifiedName": "MatDialogRef"
+												},
+												"typeArguments": [
+													{
+														"type": "reference",
+														"target": 163,
+														"name": "UserRegistrationFormComponent",
+														"package": "my-flix-angular-client"
+													},
+													{
+														"type": "intrinsic",
+														"name": "any"
+													}
+												],
+												"name": "MatDialogRef",
+												"package": "@angular/material"
+											}
+										},
+										{
+											"id": 168,
+											"name": "snackBar",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "node_modules/@angular/material/snack-bar/index.d.ts",
+													"qualifiedName": "MatSnackBar"
+												},
+												"name": "MatSnackBar",
+												"package": "@angular/material"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 163,
+										"name": "UserRegistrationFormComponent",
+										"package": "my-flix-angular-client"
+									}
+								}
+							]
+						},
+						{
+							"id": 176,
+							"name": "dialogRef",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isPublic": true
+							},
+							"sources": [
+								{
+									"fileName": "user-registration-form/user-registration-form.component.ts",
+									"line": 22,
+									"character": 11,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-registration-form/user-registration-form.component.ts#L22"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "node_modules/@angular/material/dialog/index.d.ts",
+									"qualifiedName": "MatDialogRef"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 163,
+										"name": "UserRegistrationFormComponent",
+										"package": "my-flix-angular-client"
+									},
+									{
+										"type": "intrinsic",
+										"name": "any"
+									}
+								],
+								"name": "MatDialogRef",
+								"package": "@angular/material"
+							}
+						},
+						{
+							"id": 175,
+							"name": "fetchApiData",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isPublic": true
+							},
+							"sources": [
+								{
+									"fileName": "user-registration-form/user-registration-form.component.ts",
+									"line": 21,
+									"character": 11,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-registration-form/user-registration-form.component.ts#L21"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": 7,
+								"name": "FetchApiDataService",
+								"package": "my-flix-angular-client"
+							}
+						},
+						{
+							"id": 177,
+							"name": "snackBar",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isPublic": true
+							},
+							"sources": [
+								{
+									"fileName": "user-registration-form/user-registration-form.component.ts",
+									"line": 23,
+									"character": 11,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-registration-form/user-registration-form.component.ts#L23"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "node_modules/@angular/material/snack-bar/index.d.ts",
+									"qualifiedName": "MatSnackBar"
+								},
+								"name": "MatSnackBar",
+								"package": "@angular/material"
+							}
+						},
+						{
+							"id": 169,
+							"name": "userData",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "user-registration-form/user-registration-form.component.ts",
+									"line": 18,
+									"character": 11,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-registration-form/user-registration-form.component.ts#L18"
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 170,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"children": [
+										{
+											"id": 174,
+											"name": "Birth",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "user-registration-form/user-registration-form.component.ts",
+													"line": 18,
+													"character": 63,
+													"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-registration-form/user-registration-form.component.ts#L18"
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											},
+											"defaultValue": "''"
+										},
+										{
+											"id": 173,
+											"name": "Email",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "user-registration-form/user-registration-form.component.ts",
+													"line": 18,
+													"character": 52,
+													"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-registration-form/user-registration-form.component.ts#L18"
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											},
+											"defaultValue": "''"
+										},
+										{
+											"id": 172,
+											"name": "Password",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "user-registration-form/user-registration-form.component.ts",
+													"line": 18,
+													"character": 38,
+													"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-registration-form/user-registration-form.component.ts#L18"
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											},
+											"defaultValue": "''"
+										},
+										{
+											"id": 171,
+											"name": "Username",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "user-registration-form/user-registration-form.component.ts",
+													"line": 18,
+													"character": 24,
+													"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-registration-form/user-registration-form.component.ts#L18"
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											},
+											"defaultValue": "''"
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"children": [
+												174,
+												173,
+												172,
+												171
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "user-registration-form/user-registration-form.component.ts",
+											"line": 18,
+											"character": 22,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-registration-form/user-registration-form.component.ts#L18"
+										}
+									]
+								}
+							},
+							"defaultValue": "..."
+						},
+						{
+							"id": 178,
+							"name": "ngOnInit",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "user-registration-form/user-registration-form.component.ts",
+									"line": 25,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-registration-form/user-registration-form.component.ts#L25"
+								}
+							],
+							"signatures": [
+								{
+									"id": 179,
+									"name": "ngOnInit",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "user-registration-form/user-registration-form.component.ts",
+											"line": 25,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-registration-form/user-registration-form.component.ts#L25"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"implementationOf": {
+										"type": "reference",
+										"target": -1,
+										"name": "OnInit.ngOnInit"
+									}
+								}
+							],
+							"implementationOf": {
+								"type": "reference",
+								"target": -1,
+								"name": "OnInit.ngOnInit"
+							}
+						},
+						{
+							"id": 180,
+							"name": "registerUser",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "user-registration-form/user-registration-form.component.ts",
+									"line": 31,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-registration-form/user-registration-form.component.ts#L31"
+								}
+							],
+							"signatures": [
+								{
+									"id": 181,
+									"name": "registerUser",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "sends the form inputs to the backend"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "user-registration-form/user-registration-form.component.ts",
+											"line": 31,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-registration-form/user-registration-form.component.ts#L31"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"children": [
+								164
+							]
+						},
+						{
+							"title": "Properties",
+							"children": [
+								176,
+								175,
+								177,
+								169
+							]
+						},
+						{
+							"title": "Methods",
+							"children": [
+								178,
+								180
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "user-registration-form/user-registration-form.component.ts",
+							"line": 16,
+							"character": 13,
+							"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-registration-form/user-registration-form.component.ts#L16"
+						}
+					],
+					"implementedTypes": [
+						{
+							"type": "reference",
+							"target": {
+								"sourceFileName": "node_modules/@angular/core/index.d.ts",
+								"qualifiedName": "OnInit"
+							},
+							"name": "OnInit",
+							"package": "@angular/core"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"children": [
+						163
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "user-registration-form/user-registration-form.component.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/user-registration-form/user-registration-form.component.ts#L1"
+				}
+			]
+		},
+		{
+			"id": 182,
+			"name": "welcome-page/welcome-page.component",
+			"variant": "declaration",
+			"kind": 2,
+			"flags": {},
+			"children": [
+				{
+					"id": 183,
+					"name": "WelcomePageComponent",
+					"variant": "declaration",
+					"kind": 128,
+					"flags": {},
+					"children": [
+						{
+							"id": 184,
+							"name": "constructor",
+							"variant": "declaration",
+							"kind": 512,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "welcome-page/welcome-page.component.ts",
+									"line": 17,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/welcome-page/welcome-page.component.ts#L17"
+								}
+							],
+							"signatures": [
+								{
+									"id": 185,
+									"name": "new WelcomePageComponent",
+									"variant": "signature",
+									"kind": 16384,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "welcome-page/welcome-page.component.ts",
+											"line": 17,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/welcome-page/welcome-page.component.ts#L17"
+										}
+									],
+									"parameters": [
+										{
+											"id": 186,
+											"name": "dialog",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "node_modules/@angular/material/dialog/index.d.ts",
+													"qualifiedName": "MatDialog"
+												},
+												"name": "MatDialog",
+												"package": "@angular/material"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 183,
+										"name": "WelcomePageComponent",
+										"package": "my-flix-angular-client"
+									}
+								}
+							]
+						},
+						{
+							"id": 187,
+							"name": "dialog",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isPublic": true
+							},
+							"sources": [
+								{
+									"fileName": "welcome-page/welcome-page.component.ts",
+									"line": 17,
+									"character": 21,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/welcome-page/welcome-page.component.ts#L17"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "node_modules/@angular/material/dialog/index.d.ts",
+									"qualifiedName": "MatDialog"
+								},
+								"name": "MatDialog",
+								"package": "@angular/material"
+							}
+						},
+						{
+							"id": 188,
+							"name": "ngOnInit",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "welcome-page/welcome-page.component.ts",
+									"line": 18,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/welcome-page/welcome-page.component.ts#L18"
+								}
+							],
+							"signatures": [
+								{
+									"id": 189,
+									"name": "ngOnInit",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "welcome-page/welcome-page.component.ts",
+											"line": 18,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/welcome-page/welcome-page.component.ts#L18"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"implementationOf": {
+										"type": "reference",
+										"target": -1,
+										"name": "OnInit.ngOnInit"
+									}
+								}
+							],
+							"implementationOf": {
+								"type": "reference",
+								"target": -1,
+								"name": "OnInit.ngOnInit"
+							}
+						},
+						{
+							"id": 192,
+							"name": "openUserLoginDialog",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "welcome-page/welcome-page.component.ts",
+									"line": 34,
+									"character": 0,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/welcome-page/welcome-page.component.ts#L34"
+								}
+							],
+							"signatures": [
+								{
+									"id": 193,
+									"name": "openUserLoginDialog",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "opens login dialog"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "welcome-page/welcome-page.component.ts",
+											"line": 34,
+											"character": 0,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/welcome-page/welcome-page.component.ts#L34"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 190,
+							"name": "openUserRegistrationDialog",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "welcome-page/welcome-page.component.ts",
+									"line": 24,
+									"character": 2,
+									"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/welcome-page/welcome-page.component.ts#L24"
+								}
+							],
+							"signatures": [
+								{
+									"id": 191,
+									"name": "openUserRegistrationDialog",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "opens registration dialog"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "welcome-page/welcome-page.component.ts",
+											"line": 24,
+											"character": 2,
+											"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/welcome-page/welcome-page.component.ts#L24"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"children": [
+								184
+							]
+						},
+						{
+							"title": "Properties",
+							"children": [
+								187
+							]
+						},
+						{
+							"title": "Methods",
+							"children": [
+								188,
+								192,
+								190
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "welcome-page/welcome-page.component.ts",
+							"line": 16,
+							"character": 13,
+							"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/welcome-page/welcome-page.component.ts#L16"
+						}
+					],
+					"implementedTypes": [
+						{
+							"type": "reference",
+							"target": {
+								"sourceFileName": "node_modules/@angular/core/index.d.ts",
+								"qualifiedName": "OnInit"
+							},
+							"name": "OnInit",
+							"package": "@angular/core"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"children": [
+						183
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "welcome-page/welcome-page.component.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/Tinkjimmy/My-Flix-Angular_client-2/blob/2529ce5/src/app/welcome-page/welcome-page.component.ts#L1"
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "Modules",
+			"children": [
+				1,
+				6,
+				53,
+				88,
+				102,
+				116,
+				136,
+				162,
+				182
+			]
+		}
+	],
+	"packageName": "my-flix-angular-client",
+	"readme": [
+		{
+			"kind": "text",
+			"text": "# MyFlixAngularClient\r\n\r\nThis project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.\r\n\r\n## Development server\r\n\r\nRun "
+		},
+		{
+			"kind": "code",
+			"text": "`ng serve`"
+		},
+		{
+			"kind": "text",
+			"text": " for a dev server. Navigate to "
+		},
+		{
+			"kind": "code",
+			"text": "`http://localhost:4200/`"
+		},
+		{
+			"kind": "text",
+			"text": ". The application will automatically reload if you change any of the source files.\r\n\r\n## Code scaffolding\r\n\r\nRun "
+		},
+		{
+			"kind": "code",
+			"text": "`ng generate component component-name`"
+		},
+		{
+			"kind": "text",
+			"text": " to generate a new component. You can also use "
+		},
+		{
+			"kind": "code",
+			"text": "`ng generate directive|pipe|service|class|guard|interface|enum|module`"
+		},
+		{
+			"kind": "text",
+			"text": ".\r\n\r\n## Build\r\n\r\nRun "
+		},
+		{
+			"kind": "code",
+			"text": "`ng build`"
+		},
+		{
+			"kind": "text",
+			"text": " to build the project. The build artifacts will be stored in the "
+		},
+		{
+			"kind": "code",
+			"text": "`dist/`"
+		},
+		{
+			"kind": "text",
+			"text": " directory.\r\n\r\n## Running unit tests\r\n\r\nRun "
+		},
+		{
+			"kind": "code",
+			"text": "`ng test`"
+		},
+		{
+			"kind": "text",
+			"text": " to execute the unit tests via [Karma](https://karma-runner.github.io).\r\n\r\n## Running end-to-end tests\r\n\r\nRun "
+		},
+		{
+			"kind": "code",
+			"text": "`ng e2e`"
+		},
+		{
+			"kind": "text",
+			"text": " to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.\r\n\r\n## Further help\r\n\r\nTo get more help on the Angular CLI use "
+		},
+		{
+			"kind": "code",
+			"text": "`ng help`"
+		},
+		{
+			"kind": "text",
+			"text": " or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page."
+		}
+	],
+	"symbolIdMap": {
+		"1": {
+			"sourceFileName": "src/app/app.component.ts",
+			"qualifiedName": ""
+		},
+		"2": {
+			"sourceFileName": "src/app/app.component.ts",
+			"qualifiedName": "AppComponent"
+		},
+		"5": {
+			"sourceFileName": "src/app/app.component.ts",
+			"qualifiedName": "AppComponent.title"
+		},
+		"6": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": ""
+		},
+		"7": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService"
+		},
+		"8": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService.__constructor"
+		},
+		"9": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService"
+		},
+		"10": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "http"
+		},
+		"11": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService.http"
+		},
+		"12": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService.userRegistration"
+		},
+		"13": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService.userRegistration"
+		},
+		"14": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "userDetails"
+		},
+		"15": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService.userLogin"
+		},
+		"16": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService.userLogin"
+		},
+		"17": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "userDetails"
+		},
+		"18": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService.getAllMovies"
+		},
+		"19": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService.getAllMovies"
+		},
+		"20": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService.getOneMovie"
+		},
+		"21": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService.getOneMovie"
+		},
+		"22": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "title"
+		},
+		"23": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService.getOneDirector"
+		},
+		"24": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService.getOneDirector"
+		},
+		"25": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "directorName"
+		},
+		"26": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService.getOneGenre"
+		},
+		"27": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService.getOneGenre"
+		},
+		"28": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "genreName"
+		},
+		"29": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService.getOneUser"
+		},
+		"30": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService.getOneUser"
+		},
+		"31": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService.getFavoriteMovies"
+		},
+		"32": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService.getFavoriteMovies"
+		},
+		"33": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService.addFavoriteMovie"
+		},
+		"34": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService.addFavoriteMovie"
+		},
+		"35": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "movieId"
+		},
+		"36": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService.isFavoriteMovie"
+		},
+		"37": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService.isFavoriteMovie"
+		},
+		"38": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "movieId"
+		},
+		"39": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService.editUser"
+		},
+		"40": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService.editUser"
+		},
+		"41": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "updatedUser"
+		},
+		"42": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService.deleteUser"
+		},
+		"43": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService.deleteUser"
+		},
+		"44": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService.deleteFavoriteMovie"
+		},
+		"45": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService.deleteFavoriteMovie"
+		},
+		"46": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "movieId"
+		},
+		"47": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService.extractResponseData"
+		},
+		"48": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService.extractResponseData"
+		},
+		"49": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "res"
+		},
+		"50": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService.handleError"
+		},
+		"51": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "FetchApiDataService.handleError"
+		},
+		"52": {
+			"sourceFileName": "src/app/fetch-api-data.service.ts",
+			"qualifiedName": "error"
+		},
+		"53": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": ""
+		},
+		"54": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "MovieCardComponent"
+		},
+		"55": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "MovieCardComponent.__constructor"
+		},
+		"56": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "MovieCardComponent"
+		},
+		"57": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "fetchApiData"
+		},
+		"58": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "snackBar"
+		},
+		"59": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "dialog"
+		},
+		"60": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "MovieCardComponent.movies"
+		},
+		"61": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "MovieCardComponent.fetchApiData"
+		},
+		"62": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "MovieCardComponent.snackBar"
+		},
+		"63": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "MovieCardComponent.dialog"
+		},
+		"64": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "MovieCardComponent.ngOnInit"
+		},
+		"65": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "MovieCardComponent.ngOnInit"
+		},
+		"66": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "MovieCardComponent.getMovies"
+		},
+		"67": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "MovieCardComponent.getMovies"
+		},
+		"68": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "MovieCardComponent.getGenre"
+		},
+		"69": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "MovieCardComponent.getGenre"
+		},
+		"70": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "name"
+		},
+		"71": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "description"
+		},
+		"72": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "MovieCardComponent.getDirector"
+		},
+		"73": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "MovieCardComponent.getDirector"
+		},
+		"74": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "name"
+		},
+		"75": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "bio"
+		},
+		"76": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "MovieCardComponent.getSynopsis"
+		},
+		"77": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "MovieCardComponent.getSynopsis"
+		},
+		"78": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "description"
+		},
+		"79": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "MovieCardComponent.addFavorite"
+		},
+		"80": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "MovieCardComponent.addFavorite"
+		},
+		"81": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "id"
+		},
+		"82": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "MovieCardComponent.isFavorite"
+		},
+		"83": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "MovieCardComponent.isFavorite"
+		},
+		"84": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "id"
+		},
+		"85": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "MovieCardComponent.removeFavorite"
+		},
+		"86": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "MovieCardComponent.removeFavorite"
+		},
+		"87": {
+			"sourceFileName": "src/app/movie-card/movie-card.component.ts",
+			"qualifiedName": "id"
+		},
+		"88": {
+			"sourceFileName": "src/app/movie-info/movie-info.component.ts",
+			"qualifiedName": ""
+		},
+		"89": {
+			"sourceFileName": "src/app/movie-info/movie-info.component.ts",
+			"qualifiedName": "MovieInfoComponent"
+		},
+		"90": {
+			"sourceFileName": "src/app/movie-info/movie-info.component.ts",
+			"qualifiedName": "MovieInfoComponent.__constructor"
+		},
+		"91": {
+			"sourceFileName": "src/app/movie-info/movie-info.component.ts",
+			"qualifiedName": "MovieInfoComponent"
+		},
+		"92": {
+			"sourceFileName": "src/app/movie-info/movie-info.component.ts",
+			"qualifiedName": "data"
+		},
+		"93": {
+			"sourceFileName": "src/app/movie-info/movie-info.component.ts",
+			"qualifiedName": "__type"
+		},
+		"94": {
+			"sourceFileName": "src/app/movie-info/movie-info.component.ts",
+			"qualifiedName": "__type.title"
+		},
+		"95": {
+			"sourceFileName": "src/app/movie-info/movie-info.component.ts",
+			"qualifiedName": "__type.content"
+		},
+		"96": {
+			"sourceFileName": "src/app/movie-info/movie-info.component.ts",
+			"qualifiedName": "MovieInfoComponent.data"
+		},
+		"97": {
+			"sourceFileName": "src/app/movie-info/movie-info.component.ts",
+			"qualifiedName": "__type"
+		},
+		"98": {
+			"sourceFileName": "src/app/movie-info/movie-info.component.ts",
+			"qualifiedName": "__type.title"
+		},
+		"99": {
+			"sourceFileName": "src/app/movie-info/movie-info.component.ts",
+			"qualifiedName": "__type.content"
+		},
+		"100": {
+			"sourceFileName": "src/app/movie-info/movie-info.component.ts",
+			"qualifiedName": "MovieInfoComponent.ngOnInit"
+		},
+		"101": {
+			"sourceFileName": "src/app/movie-info/movie-info.component.ts",
+			"qualifiedName": "MovieInfoComponent.ngOnInit"
+		},
+		"102": {
+			"sourceFileName": "src/app/navbar/navbar.component.ts",
+			"qualifiedName": ""
+		},
+		"103": {
+			"sourceFileName": "src/app/navbar/navbar.component.ts",
+			"qualifiedName": "NavbarComponent"
+		},
+		"104": {
+			"sourceFileName": "src/app/navbar/navbar.component.ts",
+			"qualifiedName": "NavbarComponent.__constructor"
+		},
+		"105": {
+			"sourceFileName": "src/app/navbar/navbar.component.ts",
+			"qualifiedName": "NavbarComponent"
+		},
+		"106": {
+			"sourceFileName": "src/app/navbar/navbar.component.ts",
+			"qualifiedName": "router"
+		},
+		"107": {
+			"sourceFileName": "src/app/navbar/navbar.component.ts",
+			"qualifiedName": "NavbarComponent.router"
+		},
+		"108": {
+			"sourceFileName": "src/app/navbar/navbar.component.ts",
+			"qualifiedName": "NavbarComponent.ngOnInit"
+		},
+		"109": {
+			"sourceFileName": "src/app/navbar/navbar.component.ts",
+			"qualifiedName": "NavbarComponent.ngOnInit"
+		},
+		"110": {
+			"sourceFileName": "src/app/navbar/navbar.component.ts",
+			"qualifiedName": "NavbarComponent.goToMovies"
+		},
+		"111": {
+			"sourceFileName": "src/app/navbar/navbar.component.ts",
+			"qualifiedName": "NavbarComponent.goToMovies"
+		},
+		"112": {
+			"sourceFileName": "src/app/navbar/navbar.component.ts",
+			"qualifiedName": "NavbarComponent.goToProfile"
+		},
+		"113": {
+			"sourceFileName": "src/app/navbar/navbar.component.ts",
+			"qualifiedName": "NavbarComponent.goToProfile"
+		},
+		"114": {
+			"sourceFileName": "src/app/navbar/navbar.component.ts",
+			"qualifiedName": "NavbarComponent.logOut"
+		},
+		"115": {
+			"sourceFileName": "src/app/navbar/navbar.component.ts",
+			"qualifiedName": "NavbarComponent.logOut"
+		},
+		"116": {
+			"sourceFileName": "src/app/user-login-form/user-login-form.component.ts",
+			"qualifiedName": ""
+		},
+		"117": {
+			"sourceFileName": "src/app/user-login-form/user-login-form.component.ts",
+			"qualifiedName": "UserLoginFormComponent"
+		},
+		"118": {
+			"sourceFileName": "src/app/user-login-form/user-login-form.component.ts",
+			"qualifiedName": "UserLoginFormComponent.__constructor"
+		},
+		"119": {
+			"sourceFileName": "src/app/user-login-form/user-login-form.component.ts",
+			"qualifiedName": "UserLoginFormComponent"
+		},
+		"120": {
+			"sourceFileName": "src/app/user-login-form/user-login-form.component.ts",
+			"qualifiedName": "fetchApiData"
+		},
+		"121": {
+			"sourceFileName": "src/app/user-login-form/user-login-form.component.ts",
+			"qualifiedName": "dialogRef"
+		},
+		"122": {
+			"sourceFileName": "src/app/user-login-form/user-login-form.component.ts",
+			"qualifiedName": "snackBar"
+		},
+		"123": {
+			"sourceFileName": "src/app/user-login-form/user-login-form.component.ts",
+			"qualifiedName": "router"
+		},
+		"124": {
+			"sourceFileName": "src/app/user-login-form/user-login-form.component.ts",
+			"qualifiedName": "UserLoginFormComponent.loginData"
+		},
+		"125": {
+			"sourceFileName": "src/app/user-login-form/user-login-form.component.ts",
+			"qualifiedName": "__object"
+		},
+		"126": {
+			"sourceFileName": "src/app/user-login-form/user-login-form.component.ts",
+			"qualifiedName": "__object.Username"
+		},
+		"127": {
+			"sourceFileName": "src/app/user-login-form/user-login-form.component.ts",
+			"qualifiedName": "__object.Password"
+		},
+		"128": {
+			"sourceFileName": "src/app/user-login-form/user-login-form.component.ts",
+			"qualifiedName": "UserLoginFormComponent.fetchApiData"
+		},
+		"129": {
+			"sourceFileName": "src/app/user-login-form/user-login-form.component.ts",
+			"qualifiedName": "UserLoginFormComponent.dialogRef"
+		},
+		"130": {
+			"sourceFileName": "src/app/user-login-form/user-login-form.component.ts",
+			"qualifiedName": "UserLoginFormComponent.snackBar"
+		},
+		"131": {
+			"sourceFileName": "src/app/user-login-form/user-login-form.component.ts",
+			"qualifiedName": "UserLoginFormComponent.router"
+		},
+		"132": {
+			"sourceFileName": "src/app/user-login-form/user-login-form.component.ts",
+			"qualifiedName": "UserLoginFormComponent.ngOnInit"
+		},
+		"133": {
+			"sourceFileName": "src/app/user-login-form/user-login-form.component.ts",
+			"qualifiedName": "UserLoginFormComponent.ngOnInit"
+		},
+		"134": {
+			"sourceFileName": "src/app/user-login-form/user-login-form.component.ts",
+			"qualifiedName": "UserLoginFormComponent.loginUser"
+		},
+		"135": {
+			"sourceFileName": "src/app/user-login-form/user-login-form.component.ts",
+			"qualifiedName": "UserLoginFormComponent.loginUser"
+		},
+		"136": {
+			"sourceFileName": "src/app/user-profile/user-profile.component.ts",
+			"qualifiedName": ""
+		},
+		"137": {
+			"sourceFileName": "src/app/user-profile/user-profile.component.ts",
+			"qualifiedName": "UserProfileComponent"
+		},
+		"138": {
+			"sourceFileName": "src/app/user-profile/user-profile.component.ts",
+			"qualifiedName": "UserProfileComponent.__constructor"
+		},
+		"139": {
+			"sourceFileName": "src/app/user-profile/user-profile.component.ts",
+			"qualifiedName": "UserProfileComponent"
+		},
+		"140": {
+			"sourceFileName": "src/app/user-profile/user-profile.component.ts",
+			"qualifiedName": "fetchApiData"
+		},
+		"141": {
+			"sourceFileName": "src/app/user-profile/user-profile.component.ts",
+			"qualifiedName": "snackBar"
+		},
+		"142": {
+			"sourceFileName": "src/app/user-profile/user-profile.component.ts",
+			"qualifiedName": "router"
+		},
+		"143": {
+			"sourceFileName": "src/app/user-profile/user-profile.component.ts",
+			"qualifiedName": "UserProfileComponent.user"
+		},
+		"144": {
+			"sourceFileName": "src/app/user-profile/user-profile.component.ts",
+			"qualifiedName": "UserProfileComponent.favoriteMovies"
+		},
+		"145": {
+			"sourceFileName": "src/app/user-profile/user-profile.component.ts",
+			"qualifiedName": "UserProfileComponent.userData"
+		},
+		"146": {
+			"sourceFileName": "src/app/user-profile/user-profile.component.ts",
+			"qualifiedName": "__object"
+		},
+		"147": {
+			"sourceFileName": "src/app/user-profile/user-profile.component.ts",
+			"qualifiedName": "__object.Username"
+		},
+		"148": {
+			"sourceFileName": "src/app/user-profile/user-profile.component.ts",
+			"qualifiedName": "__object.Password"
+		},
+		"149": {
+			"sourceFileName": "src/app/user-profile/user-profile.component.ts",
+			"qualifiedName": "__object.Email"
+		},
+		"150": {
+			"sourceFileName": "src/app/user-profile/user-profile.component.ts",
+			"qualifiedName": "__object.Birthday"
+		},
+		"151": {
+			"sourceFileName": "src/app/user-profile/user-profile.component.ts",
+			"qualifiedName": "UserProfileComponent.fetchApiData"
+		},
+		"152": {
+			"sourceFileName": "src/app/user-profile/user-profile.component.ts",
+			"qualifiedName": "UserProfileComponent.snackBar"
+		},
+		"153": {
+			"sourceFileName": "src/app/user-profile/user-profile.component.ts",
+			"qualifiedName": "UserProfileComponent.router"
+		},
+		"154": {
+			"sourceFileName": "src/app/user-profile/user-profile.component.ts",
+			"qualifiedName": "UserProfileComponent.ngOnInit"
+		},
+		"155": {
+			"sourceFileName": "src/app/user-profile/user-profile.component.ts",
+			"qualifiedName": "UserProfileComponent.ngOnInit"
+		},
+		"156": {
+			"sourceFileName": "src/app/user-profile/user-profile.component.ts",
+			"qualifiedName": "UserProfileComponent.getUser"
+		},
+		"157": {
+			"sourceFileName": "src/app/user-profile/user-profile.component.ts",
+			"qualifiedName": "UserProfileComponent.getUser"
+		},
+		"158": {
+			"sourceFileName": "src/app/user-profile/user-profile.component.ts",
+			"qualifiedName": "UserProfileComponent.editUser"
+		},
+		"159": {
+			"sourceFileName": "src/app/user-profile/user-profile.component.ts",
+			"qualifiedName": "UserProfileComponent.editUser"
+		},
+		"160": {
+			"sourceFileName": "src/app/user-profile/user-profile.component.ts",
+			"qualifiedName": "UserProfileComponent.deleteUser"
+		},
+		"161": {
+			"sourceFileName": "src/app/user-profile/user-profile.component.ts",
+			"qualifiedName": "UserProfileComponent.deleteUser"
+		},
+		"162": {
+			"sourceFileName": "src/app/user-registration-form/user-registration-form.component.ts",
+			"qualifiedName": ""
+		},
+		"163": {
+			"sourceFileName": "src/app/user-registration-form/user-registration-form.component.ts",
+			"qualifiedName": "UserRegistrationFormComponent"
+		},
+		"164": {
+			"sourceFileName": "src/app/user-registration-form/user-registration-form.component.ts",
+			"qualifiedName": "UserRegistrationFormComponent.__constructor"
+		},
+		"165": {
+			"sourceFileName": "src/app/user-registration-form/user-registration-form.component.ts",
+			"qualifiedName": "UserRegistrationFormComponent"
+		},
+		"166": {
+			"sourceFileName": "src/app/user-registration-form/user-registration-form.component.ts",
+			"qualifiedName": "fetchApiData"
+		},
+		"167": {
+			"sourceFileName": "src/app/user-registration-form/user-registration-form.component.ts",
+			"qualifiedName": "dialogRef"
+		},
+		"168": {
+			"sourceFileName": "src/app/user-registration-form/user-registration-form.component.ts",
+			"qualifiedName": "snackBar"
+		},
+		"169": {
+			"sourceFileName": "src/app/user-registration-form/user-registration-form.component.ts",
+			"qualifiedName": "UserRegistrationFormComponent.userData"
+		},
+		"170": {
+			"sourceFileName": "src/app/user-registration-form/user-registration-form.component.ts",
+			"qualifiedName": "__object"
+		},
+		"171": {
+			"sourceFileName": "src/app/user-registration-form/user-registration-form.component.ts",
+			"qualifiedName": "__object.Username"
+		},
+		"172": {
+			"sourceFileName": "src/app/user-registration-form/user-registration-form.component.ts",
+			"qualifiedName": "__object.Password"
+		},
+		"173": {
+			"sourceFileName": "src/app/user-registration-form/user-registration-form.component.ts",
+			"qualifiedName": "__object.Email"
+		},
+		"174": {
+			"sourceFileName": "src/app/user-registration-form/user-registration-form.component.ts",
+			"qualifiedName": "__object.Birth"
+		},
+		"175": {
+			"sourceFileName": "src/app/user-registration-form/user-registration-form.component.ts",
+			"qualifiedName": "UserRegistrationFormComponent.fetchApiData"
+		},
+		"176": {
+			"sourceFileName": "src/app/user-registration-form/user-registration-form.component.ts",
+			"qualifiedName": "UserRegistrationFormComponent.dialogRef"
+		},
+		"177": {
+			"sourceFileName": "src/app/user-registration-form/user-registration-form.component.ts",
+			"qualifiedName": "UserRegistrationFormComponent.snackBar"
+		},
+		"178": {
+			"sourceFileName": "src/app/user-registration-form/user-registration-form.component.ts",
+			"qualifiedName": "UserRegistrationFormComponent.ngOnInit"
+		},
+		"179": {
+			"sourceFileName": "src/app/user-registration-form/user-registration-form.component.ts",
+			"qualifiedName": "UserRegistrationFormComponent.ngOnInit"
+		},
+		"180": {
+			"sourceFileName": "src/app/user-registration-form/user-registration-form.component.ts",
+			"qualifiedName": "UserRegistrationFormComponent.registerUser"
+		},
+		"181": {
+			"sourceFileName": "src/app/user-registration-form/user-registration-form.component.ts",
+			"qualifiedName": "UserRegistrationFormComponent.registerUser"
+		},
+		"182": {
+			"sourceFileName": "src/app/welcome-page/welcome-page.component.ts",
+			"qualifiedName": ""
+		},
+		"183": {
+			"sourceFileName": "src/app/welcome-page/welcome-page.component.ts",
+			"qualifiedName": "WelcomePageComponent"
+		},
+		"184": {
+			"sourceFileName": "src/app/welcome-page/welcome-page.component.ts",
+			"qualifiedName": "WelcomePageComponent.__constructor"
+		},
+		"185": {
+			"sourceFileName": "src/app/welcome-page/welcome-page.component.ts",
+			"qualifiedName": "WelcomePageComponent"
+		},
+		"186": {
+			"sourceFileName": "src/app/welcome-page/welcome-page.component.ts",
+			"qualifiedName": "dialog"
+		},
+		"187": {
+			"sourceFileName": "src/app/welcome-page/welcome-page.component.ts",
+			"qualifiedName": "WelcomePageComponent.dialog"
+		},
+		"188": {
+			"sourceFileName": "src/app/welcome-page/welcome-page.component.ts",
+			"qualifiedName": "WelcomePageComponent.ngOnInit"
+		},
+		"189": {
+			"sourceFileName": "src/app/welcome-page/welcome-page.component.ts",
+			"qualifiedName": "WelcomePageComponent.ngOnInit"
+		},
+		"190": {
+			"sourceFileName": "src/app/welcome-page/welcome-page.component.ts",
+			"qualifiedName": "WelcomePageComponent.openUserRegistrationDialog"
+		},
+		"191": {
+			"sourceFileName": "src/app/welcome-page/welcome-page.component.ts",
+			"qualifiedName": "WelcomePageComponent.openUserRegistrationDialog"
+		},
+		"192": {
+			"sourceFileName": "src/app/welcome-page/welcome-page.component.ts",
+			"qualifiedName": "WelcomePageComponent.openUserLoginDialog"
+		},
+		"193": {
+			"sourceFileName": "src/app/welcome-page/welcome-page.component.ts",
+			"qualifiedName": "WelcomePageComponent.openUserLoginDialog"
+		}
+	}
+}
