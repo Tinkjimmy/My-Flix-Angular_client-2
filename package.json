@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "typedoc": "typedoc --options typedoc.json"
   },
   "private": true,
   "dependencies": {
@@ -41,4 +42,5 @@
     "typedoc": "^0.25.3",
     "typescript": "~5.1.3"
   }
+  
 }
